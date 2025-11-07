@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-// 2. El namespace también es "CoreWeb"
+
 namespace CoreWeb
 {
     public class Contacto

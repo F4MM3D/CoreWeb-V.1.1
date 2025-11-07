@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 1. El namespace es "CoreWeb", porque está en la raíz del proyecto
+
 namespace CoreWeb
 {
     public class Proyecto

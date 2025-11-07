@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Threading.Tasks;
 
-using CoreWeb; // <-- CAMBIO: AÑADE ESTA LÍNEA
+using CoreWeb;
 
-// 4. El namespace aquí es "CoreWeb.Pages" porque está en la carpeta "Pages"
+// 4. "CoreWeb.Pages"
 namespace CoreWeb.Pages
 {
     public class IndexModel : PageModel
@@ -19,7 +19,7 @@ namespace CoreWeb.Pages
         private readonly IConfiguration _config;
         private readonly string _connectionString;
 
-        // Las clases "Proyecto" y "Contacto" ahora son visibles
+        //  "Proyecto" y "Contacto"
         public List<Proyecto> Proyectos { get; set; } = new List<Proyecto>();
 
         [BindProperty]
